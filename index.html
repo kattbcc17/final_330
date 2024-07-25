@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samborondon Chamber</title>
+
+    <link rel="icon" href="../lesson3/images/logoweb.png">
+
+    
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/base.css">
+
+    <script src="scripts/index.js"></script>
+    <script src="scripts/wind.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/directory.js"></script>
+
+</head>
+<body>
+
+    <header>
+
+        <div id="header-content">
+            <div id="logo-section">
+                <img src="images/website-logo2.png" alt="logo" id="header-logo">
+                <section id="name-section">
+                    <h1>Samborondon</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a id="menu" href="#"></a></li>
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
+                    <li class="nav-item"><a href="./discovery.html">Discover</a></li>
+                    <li class="nav-item"><a href="./directory.html">Directory</a></li>
+                    <li class="nav-item"><a href="./join.html">Join</a></li>
+                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="social-div">
+                <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" class="social"></a>
+                <a href="https://www.linkedin.com/feed/"><img src="images/linkedin.png" alt="linkedin" class="social"></a>
+            </div>
+            <div id="date-section">
+                <p>Generic date</p>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="home-main">
+
+        <section id="hero-section" class="home-section">
+            <h2>Samborondon Chamber</h2>
+            <picture>
+                <source srcset="images/hero-medium.jpg" media="(min-width: 500px) and (max-width: 799px)" >
+                <source srcset="images/hero-large.jpg" media="(min-width: 800px)" >
+                <img src="images/hero-small.jpg" alt="hero img">
+            </picture>
+            
+            <!-- <button> -->
+            <a href="./join.html">Join the Chamber</a>
+            <!-- </button> -->
+        </section>
+
+        <section id="event-section" class="home-section">
+            <h2>Supermaxi</h2>
+            <h3>Plaza Batan</h3>
+            <p>Join us for the great opening of our new Supermaxi store, Wednesday at 10 a.m. <span>more info...</span></p>
+        </section>
+
+        <section id="weather-section" class="home-section">
+            <h2>Weather</h2>
+            <div id="temperature-div">
+                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="weather">
+                <span id="temperature"></span>
+            </div>
+            <div id="weather-status"><h3>Weather Status</h3></div>
+            <hr>
+            <div id="weather-data">
+                <section id="wind-speed">
+                    <h4>Wind Speed: </h4><span></span>
+                </section>
+                <section id="wind-chill">
+                    <h4>Wind Chill: </h4><span></span>
+                </section>
+            </div>
+        </section>
+
+        <section id="about" class="home-section">
+            <h2>About the Chamber</h2>
+            <p>
+                We are a nonprofit membership organization that supports job creation 
+                to enable people to find employment, support their families, and succeed. 
+                We make investments in a wide range of initiatives to strengthen, sustain, 
+                and diversify our local economy.
+            </p>
+        </section>
+
+        <div id="spotlight-section" class="home-section">
+            
+            <div id="spotlight-container">
+                <section class="spotlight home-section">
+                    <h2>Aleman Humboldt High School</h2>
+                    <img src="images/aleman.png" alt="Aleman Humboldt">
+                    <hr>
+                    <p><em>Ciudad Celeste</em></p>
+                    <p><em>+593 98 2648 734 | alemanhumboldts@gov.edu</em></p>
+                </section>
+                <section class="spotlight home-section">
+                    <h2>Pez Azul</h2>
+                    <img src="images/pez.png" alt="Pez Azul">
+                    <hr>
+                    <p>Ciudad Celeste - Plaza Batan</p>
+                    <p><em>+593 99 8504 8712 | pezazulmar@gmail.com</em></p>
+                </section>
+    
+                <section class="spotlight home-section">
+                    <h2>Barcelona Sporting Club</h2>
+                    <img src="images/barcelona.png" alt="Barcelona Club">
+                    <hr>
+                    <p>Ciudad Celeste - Plaza Batan</p>
+                    <p><em>+593 96 5535 4722 | socios@BarcelonaSC.com.ec</em></p>
+                </section>
+            </div>
+
+        </div>
+
+        <div id="join-section" class="home-section">
+            <a href="./join.html">Join Us!</a>
+            <p>Discover how to join the Samborondon Chamber of Commerce  and how it handles the toughest problems so you may concentrate 
+            on expanding your company.</p>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="footer-content">
+
+            <div id="footer-top-content">
+                <img src="../lesson3/images/logoweb.png" alt="logo" id="footer-logo">
+                <h4>Samborondon Chamber of Commerce</h4>
+                <p>123 Main Street</p>
+                <p>Samborondon, Ecuador</p>
+                <p>info@sambochamber.org</p>
+                <p>+(593) 982 648-734</p>
+                <p>📍 Location Map</p>
+            </div>
+
+            <hr>
+
+            <div id="footer-bottom-content">
+                <div id="info">
+                    <p>© Samborondon Chamber</p>
+                    <p><strong>Kattia Contreras</strong></p>
+                    <p>WDD 330</p>
+                </div>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
